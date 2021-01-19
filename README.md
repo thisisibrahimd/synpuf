@@ -10,7 +10,7 @@ The csv data files in this repo are compatible with OMOP CDM version 5.2.2.
 
 # Data loading instructions
 
-1. git slone the contents of this repo. There is one csv file for each database table.
+1. git clone the contents of this repo. There is one csv file for each database table.
 2. The format of each data file is as follows:
 
    - No header record
