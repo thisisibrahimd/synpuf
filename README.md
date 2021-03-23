@@ -1,6 +1,6 @@
 # SynPUF 250 OMOP CDM Dataset Information
 
-This zip file contains a 250 person sample of fictitious data set.
+These csv data files contains a 250 person sample of fictitious data set.
 
 [Information on the SynPUF data source is available here](https://github.com/anandosen/pop_rep)
 
@@ -22,4 +22,10 @@ The csv data files in this repo are compatible with OMOP CDM version 5.2.2.
 
 ```SQL
 \COPY PERSON FROM 'person.csv' DELIMITER E'\t' CSV ENCODING 'UTF8';
+```
+
+# Docker
+
+```bash
+docker-compose up
 ```
