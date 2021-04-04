@@ -5,8 +5,3 @@ services:
     build: .
     ports:
       - "127.0.0.1:5432:5432"
-    volumes:
-      - synpuf:/var/lib/postgresql/data
-
-volumes:
-  synpuf:
